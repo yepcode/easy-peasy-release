@@ -17,9 +17,14 @@
     "/oclif.manifest.json"
   ],
   "dependencies": {
+    "@npmcli/package-json": "^3.0.0",
+    "@oclif/color": "^1.0.2",
     "@oclif/core": "^1.24.0",
     "@oclif/plugin-help": "^5",
-    "@oclif/plugin-plugins": "^2.1.12"
+    "@oclif/plugin-plugins": "^2.1.12",
+    "inquirer": "^8.2.3",
+    "ora": "^5.4.1",
+    "simple-git": "^3.16.0"
   },
   "devDependencies": {
     "@oclif/test": "^2.2.20",
@@ -41,16 +46,12 @@
     "bin": "easy-peasy-release",
     "dirname": "easy-peasy-release",
     "commands": "./dist/commands",
+    "default": "easy-peasy-release",
     "plugins": [
-      "@oclif/plugin-help",
-      "@oclif/plugin-plugins"
+      "@oclif/plugin-help"
     ],
     "topicSeparator": " ",
-    "topics": {
-      "hello": {
-        "description": "Say hello to the world and others"
-      }
-    }
+    "topics": {}
   },
   "scripts": {
     "build": "shx rm -rf dist && tsc -b",
