@@ -1,0 +1,28 @@
+{
+  "extends": ["oclif", "oclif-typescript"],
+  "rules": {
+    "curly": 2,
+    "max-len": [0, 160, 2, { "ignoreUrls": true }],
+    "object-curly-spacing": "off",
+    "arrow-parens": [2, "always"],
+    "operator-linebreak": ["error", "after", { "overrides": { "?": "before", ":": "before" } }],
+    "brace-style": [0, "stroustrup", { "allowSingleLine": true }],
+    "indent": ["error", 2],
+    "@typescript-eslint/indent": [
+      "error",
+      2,
+      {
+        "CallExpression": {
+          "arguments": "first"
+        },
+        "FunctionDeclaration": {
+          "parameters": "first"
+        },
+        "FunctionExpression": {
+          "parameters": "first"
+        },
+        "offsetTernaryExpressions": true
+      }
+    ]
+  }
+}
