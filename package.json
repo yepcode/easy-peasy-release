@@ -6,10 +6,10 @@
   "bin": {
     "easy-peasy-release": "./bin/run"
   },
-  "homepage": "https://github.com/vv/hello-world",
+  "homepage": "https://github.com/trileuco/easy-peasy-release",
   "license": "MIT",
   "main": "dist/index.js",
-  "repository": "vv/hello-world",
+  "repository": "https://github.com/trileuco/easy-peasy-release.git",
   "files": [
     "/bin",
     "/dist",
@@ -31,6 +31,7 @@
     "@types/chai": "^4",
     "@types/mocha": "^9.0.0",
     "@types/node": "^16.18.11",
+    "@types/supports-color": "^8.1.1",
     "chai": "^4",
     "eslint": "^7.32.0",
     "eslint-config-oclif": "^4",
@@ -47,9 +48,7 @@
     "dirname": "easy-peasy-release",
     "commands": "./dist/commands",
     "default": "easy-peasy-release",
-    "plugins": [
-      "@oclif/plugin-help"
-    ],
+    "plugins": [],
     "topicSeparator": " ",
     "topics": {}
   },
@@ -65,8 +64,11 @@
   "engines": {
     "node": ">=12.0.0"
   },
-  "bugs": "https://github.com/vv/hello-world/issues",
+  "bugs": "https://github.com/trileuco/easy-peasy-release/issues",
   "keywords": [
+    "release",
+    "version",
+    "workflow",
     "oclif"
   ],
   "types": "dist/index.d.ts"
