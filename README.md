@@ -2,7 +2,7 @@ Easy peasy release
 =================
 Tool for our internal releases but it may help you as well!
 
-[![Version](https://img.shields.io/npm/v/easy-pease-release.svg)](https://npmjs.org/package/easy-pease-release)
+[![Version](https://img.shields.io/npm/v/easy-pease-release.svg)](https://www.npmjs.com/package/easy-peasy-release)
 [![License](https://img.shields.io/npm/l/easy-pease-release.svg)](https://github.com/trileuco/easy-peasy-release/blob/main/package.json)
 
 **How it works**:
