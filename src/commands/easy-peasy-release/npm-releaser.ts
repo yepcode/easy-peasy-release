@@ -21,4 +21,9 @@ export default class NpmReleaser extends Releaser {
     await this.pkgJson.save()
     return exec('npm install')
   }
+
+  async addFilesToGit(): Promise<void> {
+    await this.git.add('package*')
+    return Promise.resolve()
+  }
 }
