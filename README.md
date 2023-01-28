@@ -2,8 +2,9 @@ Easy peasy release
 =================
 Tool for our internal releases but it may help you as well!
 
-[![Version](https://img.shields.io/npm/v/easy-pease-release.svg)](https://www.npmjs.com/package/easy-peasy-release)
-[![License](https://img.shields.io/npm/l/easy-pease-release.svg)](https://github.com/trileuco/easy-peasy-release/blob/main/package.json)
+
+[![Version](https://img.shields.io/npm/v/easy-peasy-release)](https://www.npmjs.com/package/easy-peasy-release)
+[![License](https://img.shields.io/npm/l/easy-peasy-release)](https://github.com/trileuco/easy-peasy-release/blob/main/LICENSE)
 
 **How it works**:
 
