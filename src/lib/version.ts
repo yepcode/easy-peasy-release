@@ -6,7 +6,7 @@ export default class Version {
   patch: number
 
   constructor(version: string) {
-    const matches = version.match(/^(?<maior>\d{1,2})\.(?<minor>\d{1,2})\.(?<patch>\d{1,2})$/)
+    const matches = version.match(/^(?<maior>\d{1,3})\.(?<minor>\d{1,3})\.(?<patch>\d{1,3})$/)
     if (!matches || !matches.groups) {
       throw new Error(`Version format is invalid: ${version}`)
     }
