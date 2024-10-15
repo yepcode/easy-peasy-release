@@ -1,6 +1,6 @@
 {
   "name": "easy-peasy-release",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "helping with releases since 2023",
   "author": "agtraveso",
   "bin": {
